@@ -1,0 +1,20 @@
+.button {
+    @apply px-6 h-[38px] rounded-md outline-none flex items-center justify-center gap-6 font-medium
+    focus:shadow-none;
+}
+
+.button.primary {
+    @apply bg-indigo-600 text-white
+    focus:outline-2 focus:outline-indigo-300
+    disabled:bg-indigo-400;
+}
+
+.button.secondary {
+    @apply bg-slate-100 text-slate-900 border
+    focus:outline-2 focus:outline-gray-300
+    disabled:text-slate-400 disabled:cursor-auto;
+}
+
+.button.inverted {
+    @apply bg-gray-900 text-slate-50;
+}
