@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import { useEffect } from 'react';
-import { useState } from 'react';
 import Icon from '../icon';
 import { bytesToSize } from '../../helpers/string';
 
