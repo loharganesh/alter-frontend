@@ -10,6 +10,7 @@ function DownloadFile({ file, index }) {
                 <img
                     src={`data:image/webp;base64,${file.base64Image}`}
                     className="w-full h-full object-cover rounded-md border"
+                    alt="file thumbnail"
                 />
             </div>
             <div className="flex-1 overflow-hidden">

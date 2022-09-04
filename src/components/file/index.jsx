@@ -27,6 +27,7 @@ function File({ file, index, onRemove }) {
                 <img
                     ref={thumbnail}
                     className="w-full h-full object-cover rounded-md border"
+                    alt="file thumbnail"
                 />
             </div>
             <div className="flex-1 overflow-hidden">
