@@ -33,7 +33,7 @@ function App() {
             formData.append('files', files[i]);
         }
 
-        fetch('http://localhost:8080/', {
+        fetch('https://alter-backend-production.up.railway.app', {
             method: 'POST',
             body: formData,
         })
