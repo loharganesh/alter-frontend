@@ -14,7 +14,7 @@ function File({ file, index, onRemove }) {
 
         reader.readAsDataURL(file);
         return () => {};
-    }, []);
+    }, [file]);
 
     const handleRemove = () => {
         onRemove(index);
